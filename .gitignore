@@ -1,0 +1,26 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Секреты
+.env
+
+# PyCharm
+.idea/
+*.iml
+
+# Poetry (опционально)
+# poetry.lock
+
+# Docker
+docker-compose.override.yml
